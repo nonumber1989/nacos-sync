@@ -29,7 +29,7 @@ import java.util.function.Predicate;
 public final class DubboConstants {
     public static final char ZOOKEEPER_SEPARATOR = '/';
     public static final String DUBBO_PATH_FORMAT =
-        StringUtils.join(new String[] {"/dubbo", "%s", "providers"}, ZOOKEEPER_SEPARATOR);
+        StringUtils.join(new String[] {"/fat/default/sofa-rpc", "%s", "providers"}, ZOOKEEPER_SEPARATOR);
     public static final String DUBBO_URL_FORMAT = "%s://%s:%s/%s?%s";
     public static final String VERSION_KEY = "version";
     public static final String GROUP_KEY = "group";
